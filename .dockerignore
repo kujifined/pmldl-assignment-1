@@ -1,0 +1,11 @@
+.venv
+.airflow-venv
+.git
+.pytest_cache
+__pycache__
+mlruns
+services/airflow/logs
+data/processed
+tests
+notebooks
+.DS_Store

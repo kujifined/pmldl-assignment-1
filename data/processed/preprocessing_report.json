@@ -1,0 +1,74 @@
+{
+  "raw_rows": 344,
+  "train_rows": 272,
+  "test_rows": 69,
+  "train_outliers_removed": 3,
+  "random_state": 42,
+  "test_size": 0.2,
+  "numeric_medians_from_train": {
+    "bill_length_mm": 44.9,
+    "bill_depth_mm": 17.3,
+    "flipper_length_mm": 197.0,
+    "body_mass_g": 4050.0
+  },
+  "categorical_modes_from_train": {
+    "island": "Biscoe",
+    "sex": "male"
+  },
+  "per_species_iqr_bounds_from_train": {
+    "Adelie": {
+      "bill_length_mm": {
+        "lower": 30.812499999999986,
+        "upper": 46.91250000000001
+      },
+      "bill_depth_mm": {
+        "lower": 14.875000000000004,
+        "upper": 21.474999999999998
+      },
+      "flipper_length_mm": {
+        "lower": 171.0,
+        "upper": 209.0
+      },
+      "body_mass_g": {
+        "lower": 2271.875,
+        "upper": 5096.875
+      }
+    },
+    "Chinstrap": {
+      "bill_length_mm": {
+        "lower": 39.1125,
+        "upper": 58.6125
+      },
+      "bill_depth_mm": {
+        "lower": 15.349999999999996,
+        "upper": 21.950000000000003
+      },
+      "flipper_length_mm": {
+        "lower": 181.0,
+        "upper": 213.0
+      },
+      "body_mass_g": {
+        "lower": 2693.75,
+        "upper": 4843.75
+      }
+    },
+    "Gentoo": {
+      "bill_length_mm": {
+        "lower": 39.075,
+        "upper": 56.075
+      },
+      "bill_depth_mm": {
+        "lower": 11.95,
+        "upper": 17.95
+      },
+      "flipper_length_mm": {
+        "lower": 198.5,
+        "upper": 234.5
+      },
+      "body_mass_g": {
+        "lower": 3437.5,
+        "upper": 6737.5
+      }
+    }
+  }
+}

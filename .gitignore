@@ -1,0 +1,17 @@
+.venv/
+.airflow-venv/
+.venv
+.airflow-venv
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+PMLDL Assignment 1_ Deployment.md
+mlruns/
+services/airflow/logs/
+services/airflow/airflow.db
+services/airflow/airflow.db-*
+services/airflow/airflow.cfg
+services/airflow/webserver_config.py
+services/airflow/simple_auth_manager_passwords.json.generated
